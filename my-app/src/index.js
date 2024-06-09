@@ -4,6 +4,7 @@ import './index.css';
 import Header from './Header';
 import MainSec from './Page01/MainSec';
 import ProductFeature from './Page01/ProductFeature';
+import FeatureModal from './Page01/FeatureModal';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ root.render(
     <Header />
     <MainSec />
     <ProductFeature />
+    <FeatureModal />
     <Footer />
   </React.StrictMode>
 );

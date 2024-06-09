@@ -5,6 +5,7 @@ import Header from './Header';
 import MainSec from './Page01/MainSec';
 import ProductFeature from './Page01/ProductFeature';
 import FeatureModal from './Page01/FeatureModal';
+import Cart from './Page01/Cart';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Cart />
     <MainSec />
     <ProductFeature />
     <FeatureModal />
